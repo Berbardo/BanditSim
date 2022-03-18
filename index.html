@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="lever.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+
+        <div class="levers">
+            <div class="bandit">
+                <div class="graph">
+                    <div id='bar_left' class="bar">
+                    <h3><table><td id="return-left">0</td></table></h3>
+                    </div>
+                </div>
+                <div id="leverControl-left" class="lever-control">
+                    <div class="lever" id="lever-left" tabindex="0">
+                        <div class="knob"></div>
+                        <div class="stick"></div>
+                    </div>
+                    <div class="lever-base">
+                        <div class="pivot"></div>
+                        <div class="base"></div>
+                    </div>
+                </div>
+                <!-- <h4>Retorno Esperado</h4> -->
+            </div>
+
+            <div class="bandit">
+                <div class="graph">
+                    <div id='bar_center' class="bar">
+                    <h3><table><td id="return-center">0</td></table></h3>
+                    </div>
+                </div>
+                <div id="leverControl-center" class="lever-control">
+                    <div class="lever" id="lever-center" tabindex="0">
+                        <div class="knob"></div>
+                        <div class="stick"></div>
+                    </div>
+                    <div class="lever-base">
+                        <div class="pivot"></div>
+                        <div class="base"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bandit">
+                <div class="graph">
+                    <div id='bar_right' class="bar">
+                    <h3><table><td id="return-right">0</td></table></h3>
+                    </div>
+                </div>
+                <div id="leverControl-right" class="lever-control">
+                    <div class="lever" id="lever-right" tabindex="0">
+                        <div class="knob"></div>
+                        <div class="stick"></div>
+                    </div>
+                    <div class="lever-base">
+                        <div class="pivot"></div>
+                        <div class="base"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="main">
+                <div class="controls">
+                <button id="start">Start</button>
+                <button id="act">Act</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+            
+        
+    </body>
+</html>
+
